@@ -1,0 +1,50 @@
+.choice-container 
+{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background: white;
+
+}
+
+.choice-prefix
+{
+    padding: 1rem 1.5rem;
+    background-color: #56a5eb;
+    color: white;
+}
+
+.choice-text
+{
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.choice-container:hover
+{
+    cursor: pointer;
+    box-shadow: 0.2rem 0.2rem 0.1rem 0 rgb(178, 34, 34, 0.6);
+    /* This was supposed to make the the button lift up but it doesn't */
+    transform: translateY(-0.2rem);
+    transition: transform 200ms;
+}
+
+#question
+{
+     margin: 2rem;
+     padding: 0;
+     font-family: Arial;
+     font-size: 3em;
+     color: #333333;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.rightAnswer
+{
+    text-decoration: none;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}

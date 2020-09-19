@@ -1,0 +1,120 @@
+body 
+{
+  background:rgba(255, 140, 0, 0.925);
+  margin: 0;
+  padding: 0;
+}
+
+h1
+{
+     margin: 0;
+     padding: 0;
+     font-family: Arial;
+     font-size: 3em;
+     color: #333333;
+     position: absolute;
+     top: 36%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     text-transform: uppercase;
+}
+
+h4
+{
+     margin: 0;
+     padding: 0;
+     font-family: Arial;
+     font-size: 3em;
+     color: dimgray;
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.titleImage
+{
+    width: 550px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.gameList {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+.guideStart
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 3em;
+    color: dimgray;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase; 
+}
+.hehe
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 1em;
+    color: dimgray;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase; 
+}
+.guidePic
+{
+    width: 500px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.button
+{
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 20rem;
+    text-align: center;
+    border: 0.2rem solid black;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: olive;
+    background-color: darkred;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    box-shadow: 0.2rem 0.2rem 0.1rem 0 rgb(178, 34, 34, 0.6);
+    /* This was supposed to make the the button lift up but it doesn't */
+    transform: translateY(-5rem);
+    transition: transform 150ms;
+} 
+
